@@ -2,7 +2,7 @@ import requests
 
 URL_POST = "http://www.bancocn.com/testemano/NIENIEN.php"
 
-COOKIES = {"acesso_picudo": "cookiepicudo"}
+COOKIES = {"Your": "access"}
 
 HTML_CONTENT = """
 Your HTML5
@@ -19,8 +19,8 @@ data = {
 try:
     response = requests.post(URL_POST, cookies=COOKIES, data=data)
     if response.status_code == 200:
-        print("POST enviado com sucesso!")
+        print("POST sent successfully!")
     else:
-        print(f"POST retornou código {response.status_code}")
+        print(f"POST returned {response.status_code}")
 except Exception as e:
-    print(f"Erro ao enviar POST: {e}")
+    print(f"Error POST: {e}")
