@@ -4,3 +4,14 @@
 This Git was created for educational purposes ONLY
 
 Any changes and uses of this script will not be held responsible by me.
+
+
+# Explications
+
+# main.bat
+
+The main.bat file was created to make GET requests and POST requests with the aim of modifying the main page of the Solyd Tecnologia laboratory http://www.bancocn.com so that an HTML of your choice can be placed
+
+# post.py
+
+The post.py file must be in the same folder as main.bat, it contains a POST request to the same site that modifies the site with hardcoded HTML
